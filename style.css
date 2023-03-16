@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid rgb(236, 235, 235);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 30px 100px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-list:hover {
+    color: rgb(12, 122, 248);
+}
+
+/* main */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.left h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+
+}
+
+.btn-beli {
+    padding: 8px 15px;
+    border: 2px solid rgb(12, 122, 248);
+    border-radius: 50px 20px;
+    background-color: rgb(12, 122, 248);
+    font-weight: bolder;
+    color: white;
+}
+
+.btn-beli:hover {
+    cursor: pointer;
+    background-color: rgb(42, 139, 250);
+}
+
+.btn-keranjang {
+    padding: 8px 15px;
+    border: 2px solid rgb(134, 134, 134);
+    border-radius: 50px 20px;
+    background-color: rgb(219, 219, 219);
+    font-weight: bolder;
+}
+
+.btn-keranjang:hover {
+    cursor: pointer;
+    background-color: rgb(240, 239, 239);
+}
+
+/* body */
+.top-wrapper {
+    height: 600px;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.heading h2 {
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.heading h3 {
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+span {
+    color: #f2cd5c;
+}
+
+.electronic {
+    float: left;
+    width: 25%;
+}
+
+.electronic-icon p {
+    font-weight: bold;
+}
+
+.btnf {
+    background-color: lightgreen;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.txt-contents {
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.electronic-icon img {
+    width: 200px;
+}
+
+.bg-color2 {
+    width: 200px;
+}
+
+.bg-color3 {
+    width: 200px;
+}
+
+/* formulir */
+.formulir {
+    text-align: center;
+}
+
+.heading-form {
+    margin-bottom: 50px;
+}
+
+.card-formulir {
+    border: 2px solid rgb(12, 122, 248);
+    width: 50%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-radius: 20px 20px;
+}
+
+.input-form {
+    width: 80%;
+    margin: 10px 0px;
+    border: 2px solid rgb(12, 122, 248);
+    opacity: 0.6;
+    border-radius: 5px 5px;
+    padding: 10px;
+    background-color: rgb(245, 248, 252);
+}
+
+.input-form:hover {
+    background-color: rgb(233, 241, 250);
+}
+
+.btn-submit {
+    text-align: right;
+    padding: 5px 20px;
+    font-weight: bolder;
+    background-color: rgb(169, 209, 255);
+    border: 2px solid rgb(169, 209, 255);
+    border-radius: 5px 5px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: rgb(145, 196, 255);
+}
+
+/* footer */
+footer {
+    background-color: rgb(19, 22, 29);
+    width: 100%;
+    height: 250px;
+    margin-top: 150px;
+}
+
+footer p {
+    font-size: 12x;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    color: white;
+}
+
+.footer-container {
+    float: left;
+    /* padding-left: 40px; */
+    padding-top: 40px;
+}
+
+.footer-logo-container {
+    font-size: 20px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-logo-container h2 {
+    color: white;
+}
+
+.footer-right {
+    float: right;
+    font-weight: bold;
+    /* padding-right: 100px; */
+    padding-top: 40px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    transition: 1s all;
+    color: white;
+}
+.footer-right a:hover {
+    background-color: brown;
+    color: white;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.footer-socials {
+    padding-top: 10px;
+}
+
+.fa {
+    padding-right: 5px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.fa-facebook-square {
+    padding-left: 5px;
+}
+
+.fa:hover {
+    color: rgb(64, 84, 197);
+    cursor: pointer;
+}
+
+.sosial-media {
+    background-color: rgb(32, 34, 39);
+    text-align: center;
+}
